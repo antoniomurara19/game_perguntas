@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#game{
+    background-color: rgba(255, 255, 255, 0.386);
+    display: flex;
+    padding: 0.5rem;
+    cursor: default;
+}
+
+.card{
+    width: 15rem;
+    height: 125px;
+    background-color: rgb(23, 4, 67);
+    border-left: 10px solid lightblue ;
+    border-right: 10px solid green ;
+    border-top: 10px solid yellow ;
+    border-bottom: 10px solid purple ;
+    text-align: center;
+    font-size: 90px;
+    margin: 6px;
+    padding: 10px ;
+    line-height: 120px;
+}
+
+.first-btn{
+    background-color: rgba(255, 255, 0);
+}
+.second-btn{
+    background-color: rgba(0, 255, 30);
+}
+.third-btn{
+    background-color: rgb(0, 255, 255);
+}
+
+.titulo{
+    border: 5px solid black;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.resposta-certa{
+    background-color: rgb(0, 255, 0);
+}
+
+.resposta-errada{
+    background-color: rgb(255, 0, 0);
+}
